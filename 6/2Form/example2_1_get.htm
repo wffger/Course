@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>姓名和密码 </TITLE>
+
+
+
+   <LINK REL="stylesheet" TYPE="text/css" HREF="style.css">
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function test()
+{  if ((f1.n1.value!='')&&(f1.pwd.value!=''))
+     return (true)
+  else
+  {   alert("用户名和密码不能为空")
+      return false;
+  } 
+}
+
+//-->
+</SCRIPT>
+
+
+</HEAD>
+
+<BODY>
+<div id="forform">
+
+
+
+<FORM METHOD="GET"  ACTION="example2_1.php" name="f1" onSubmit="return test()"><p>
+	姓名：<INPUT TYPE="text" NAME="n1"><p>
+	密码：<INPUT TYPE="password" NAME="pwd"><P>
+	<INPUT TYPE="submit" value="提交" >
+</FORM>
+<P>username:abc &nbsp &nbsp password:123
+
+
+
+</div>
+</BODY>
+</HTML> 
